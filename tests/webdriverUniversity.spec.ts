@@ -6,7 +6,7 @@ test.only('webdriver', async ({ page }) => {
     let url = new Login(page);
     await url.naviagteToURL();
     await page.locator('#udemy-promo-thumbnail h1').waitFor({ state: 'visible' });
-    //page2 tab handling
+    ////page2 tab handling
     let page2Promise = page.waitForEvent('popup');
     await page.locator('#contact-us h1').click();
     let page2 = await page2Promise;
