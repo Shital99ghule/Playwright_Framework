@@ -1,0 +1,22 @@
+{
+  "name": "playwright-by-mahesh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "runAllTest": "npx playwright test",
+    "mahiTest": "npx playwright test --grep @mahi"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.8.3",
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "path": "^0.12.7"
+  }
+}
